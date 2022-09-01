@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as r,a as t}from"./app.8f3129c9.js";const m=JSON.parse('{"title":"Hello Estrella My laver","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),d={name:"index.md"},n=t("",4),s=[n];function l(h,i,o,c,_,f){return r(),a("div",null,s)}const x=e(d,[["render",l]]);export{m as __pageData,x as default};

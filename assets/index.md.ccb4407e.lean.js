@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as r,a as t}from"./app.8f3129c9.js";const m=JSON.parse('{"title":"Hello Estrella My lover","description":"","frontmatter":{},"headers":[],"relativePath":"index.md"}'),d={name:"index.md"},o=t("",4),n=[o];function s(l,h,i,c,_,f){return r(),a("div",null,n)}const x=e(d,[["render",s]]);export{m as __pageData,x as default};
