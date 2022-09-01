@@ -17,6 +17,8 @@ jobs:
           node-version: 16
           cache: yarn
       - run: yarn install --frozen-lockfile
+        env:
+          NODE_OPTIONS: '--max_old_space_size=4096'
 
       - name: Build
         run: yarn docs:build
