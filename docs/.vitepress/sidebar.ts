@@ -5,9 +5,9 @@
  * 组织名称:
  * 项目名称: code-blog
  */
-import {DefaultTheme} from 'vitepress';
+import { DefaultTheme } from 'vitepress';
 
-const iOSSidebar: DefaultTheme.SidebarGroup[] = [
+const iOSSidebar = [
   {
     text: '概述',
     items: [
@@ -33,7 +33,7 @@ const iOSSidebar: DefaultTheme.SidebarGroup[] = [
     ]
   }
 ]
-const androidSidebar: DefaultTheme.SidebarGroup[] = [
+const androidSidebar = [
   {
     text: '概述',
     items: [
@@ -59,7 +59,7 @@ const androidSidebar: DefaultTheme.SidebarGroup[] = [
     ]
   }
 ]
-const webSidebar: DefaultTheme.SidebarGroup[] = [
+const webSidebar = [
   {
     text: '概述',
     items: [
@@ -101,7 +101,7 @@ const webSidebar: DefaultTheme.SidebarGroup[] = [
     ]
   }
 ]
-const flutterSidebar: DefaultTheme.SidebarGroup[] = [
+const flutterSidebar = [
   {
     text: '概述',
     items: [
@@ -113,13 +113,13 @@ const flutterSidebar: DefaultTheme.SidebarGroup[] = [
   {
     text: 'Dart',
     items: [
-      {text: '序言', link: '/flutter/dart/'}
+      { text: '序言', link: '/flutter/dart/' }
     ]
   },
   {
     text: '组件',
     items: [
-      {text: 'Button', link: '/flutter/components/button'}
+      { text: 'Button', link: '/flutter/components/button' }
     ]
   }
 ]
